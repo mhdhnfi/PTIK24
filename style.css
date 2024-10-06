@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html, body {
@@ -78,7 +78,7 @@ main section.firstpage {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("image/bg\ ptik\ web.png");
+    background-image: url("image/bg-ptik.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -87,23 +87,47 @@ main section.firstpage {
 
 }
 
-main section div.wellcome{
+main section.firstpage div{
     font-size: 26px;
     color: white;
 }
 
 
-div.wellcome h1.first{
+div h1.first{
     font-size: 124px;
     text-align: center
 }
 
-div.wellcome span.firstcolor {
+div span.firstcolor {
     color: #9ec5f2;
 }
 
-article.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+section.sec-page div.judul-card{
+    margin: 100px 0;
+    text-align: center;
+    font-size: 36px;
+    font-style: bold;
 }
+
+section.sec-page article.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto; 
+    max-width: 1200px; 
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+section.sec-page div.judul-card h1 span.color {
+    color: #9ec5f2;
+    text-decoration: underline;
+}
+
+
+
+section.sec-page article.card div.second-card {
+    margin: 0 100px;
+}
+
