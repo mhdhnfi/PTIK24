@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Start Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #94c6f9; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2667aa; 
+  }
+
+/* End Scrollbar */
+
+header {
+    background-color: white;
+    color: black;
+    padding: 14px 16px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 10px 20px; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+
+
+
+header .navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 25px;
+}
+
+header .navbar a:hover {
+    text-decoration: none;
+    transition: ease-in 0.2s;
+    opacity: 1;
+    color: #5fa0e1;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+header nav {
+    font-size: x-large;
+    display: flex;
+}
+
+
+main section.firstpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image/bg\ ptik\ web.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    filter: grayscale(20%);
+
+}
+
+main section div.wellcome{
+    font-size: 26px;
+    color: white;
+}
+
+
+div.wellcome h1.first{
+    font-size: 124px;
+    text-align: center
+}
+
+div.wellcome span.firstcolor {
+    color: #9ec5f2;
+}
+
+article.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
