@@ -28,6 +28,7 @@ html, body {
 
 /* End Scrollbar */
 
+/* Header */
 header {
     background-color: white;
     color: black;
@@ -43,9 +44,6 @@ header {
     width: 100%; 
     z-index: 1000; 
 }
-
-
-
 
 header .navbar a {
     text-decoration: none;
@@ -72,9 +70,11 @@ header nav {
     font-size: x-large;
     display: flex;
 }
+/* End Header */
 
+/* Home CSS */
 
-main section.firstpage {
+main section.first-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +87,7 @@ main section.firstpage {
 
 }
 
-main section.firstpage div{
+main section.first-page div{
     font-size: 26px;
     color: white;
 }
@@ -98,36 +98,54 @@ div h1.first{
     text-align: center
 }
 
-div span.firstcolor {
+div span.first-color {
     color: #9ec5f2;
 }
 
-section.sec-page div.judul-card{
-    margin: 100px 0;
+/* End Home */
+
+
+
+/* Card */
+
+section.third-page div.judul-card{
     text-align: center;
-    font-size: 36px;
+    font-size: 35px;
     font-style: bold;
+    padding: 100px 0;
 }
 
-section.sec-page article.card{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    margin: 0 auto; 
-    max-width: 1200px; 
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-section.sec-page div.judul-card h1 span.color {
+div.judul-card h1 span.color {
     color: #9ec5f2;
     text-decoration: underline;
 }
 
-
-
-section.sec-page article.card div.second-card {
-    margin: 0 100px;
+section.third-page article.card{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height: 500px;
 }
+
+section.third-page article.card div{ 
+    height: 500px;
+    width: 500px;
+}
+
+
+section.third-page article.card div:hover{ 
+    transition: ease-in 0.4s;
+    transform: scale(1.05);
+}
+
+/* End Card */
+
+
+
+
+
+
+
+
 
